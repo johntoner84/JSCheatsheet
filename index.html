@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html>	
+<head>
+
+<input type="text" id="x" >
+<input type="text" id="y" >
+<button onclick="addnums()">Add it</button>
+<div id="addresult">Adding</div>
+
+<input type="text" id="xsub" >
+<input type="text" id="ysub" >
+<button onclick="subtractnums()">Subtract it</button>
+<div id="subtractresult">Subtracting</div>
+
+<input type="text" id="x" >
+<input type="text" id="y" >
+<button onclick="mulitplynums()">Multiply it</button>
+<div id="multiplyresult">Multiply it</div>
+
+
+<script>
+
+	function addnums(){
+		var x = parseInt(document.getElementById("x").value);
+		var y = parseInt(document.getElementById("y").value); 
+		var result= x + y;
+
+		document.getElementById("addresult").innerHTML = result;
+
+	}
+
+
+	function subtractnums(){
+		var x = parseInt(document.getElementById("xsub").value);
+		var y = parseInt(document.getElementById("ysub").value); 
+		var result= x - y;
+
+		document.getElementById("subtractresult").innerHTML = result;
+
+	}
+
+	function mulitplynums(){
+		var x = parseInt(document.getElementById("x").value);
+		var y = parseInt(document.getElementById("y").value); 
+		var result= x * y;
+
+		document.getElementById("multiplyresult").innerHTML = result;
+
+	}
+
+	// var x= 5
+	// var y= 5
+	// alert(x-y);
+
+
+
+</script>
+
+<script>
+
+
+var companies =["Apple", "microsoft", "yelp"]
+var favoritenunmbers = [2, 3, 4, 5, 7]
+console.log (companies [0][1]);
+
+
+
+</script>
+
+</head>
+
+<body>
+
+
+</body>
+
+</html>
